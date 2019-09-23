@@ -106,7 +106,7 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # basic
-alias la='ls -a'
+alias ls='ls -a'
 # git
 alias gs='git status'
 alias gp='git push'
