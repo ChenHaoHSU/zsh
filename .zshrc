@@ -104,29 +104,18 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# basic
+alias la='ls -a'
 # git
 alias gs='git status'
 alias gp='git push'
 alias gl='git pull'
 alias ga='git add'
 alias gc='git commit -m'
+# directory
+alias lulu='cd ~/Desktop/LuLuBus'
+alias desk='cd ~/Desktop'
+alias down='cd ~/Downloads' 
 # ssh
 alias edalab='ssh chhsu@eda.ee.ntu.edu.tw -XY'
-# directory
-alias ml3='cd ~/Desktop/ML2019SPRING/hw3'
-alias ml4='cd ~/Desktop/ML2019SPRING/hw4'
-alias ml5='cd ~/Desktop/ML2019SPRING/hw5'
-alias ml6='cd ~/Desktop/ML2019SPRING/hw6'
-alias ml7='cd ~/Desktop/ML2019SPRING/hw7'
-alias ml8='cd ~/Desktop/ML2019SPRING/hw8'
-alias final='cd ~/Desktop/ML2019SPRING/final'
-alias lulu='cd ~/Desktop/LuLuBus'
-alias lulubus='cd ~/Desktop/LuLuBus'
-
-# Source
-source ~/miniconda3/etc/profile.d/conda.sh
-
-# Export
-export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH
-export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
-
