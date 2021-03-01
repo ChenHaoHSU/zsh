@@ -114,7 +114,7 @@ alias gl='git pull'
 alias ga='git add'
 alias gc='git commit -m'
 # directory
-alias mah='cd ~/Desktop/mahjong'
+alias ten='cd ~/Desktop/tenhou'
 alias lulu='cd ~/Desktop/LuLuBus'
 alias qr='cd ~/Desktop/QRoute'
 alias desk='cd ~/Desktop'
